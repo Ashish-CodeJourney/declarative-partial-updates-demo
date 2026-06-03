@@ -1,0 +1,16 @@
+body { 
+  font-family: system-ui, sans-serif; 
+  padding: 2rem; 
+  max-width: 600px; 
+}
+
+.card { 
+  border: 1px solid #ccc; 
+  padding: 1rem; 
+  border-radius: 8px; 
+}
+
+.loading { 
+  color: #666; 
+  font-style: italic; 
+}

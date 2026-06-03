@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declarative Partial Updates Demo</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/template-for-polyfill"></script>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Jane Doe's Profile</h2>
+    <p>Bio: A passionate web developer exploring the future of HTML.</p>
+    
+    <hr>
+    <h3>Recent Activities:</h3>
+    
+    <?start name="activities-section">
+       <div class="loading">⏳ Fetching activities from a slow database...</div>
+    <?end>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
